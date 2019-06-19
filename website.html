@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Renthouse</title>
+        <script src="website.js"></script>
+        <script src="websitee.js"></script>
+        <script src="websiteee.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapics.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="website.css">
+        <!--login/sign in section start-->
+        <div class="container">
+            <div class="dropdown">
+            <button class="drop" data-toggle="dropdown">Houses<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li>Bedsitter</li>
+                <li>3Bedroom</li>
+                <li>2Bedroom</li>
+            </ul>
+            </div>
+        </div>
+             <div class="reg">
+                 <a href="site.html">
+            <button type="button" class="btn btn-link" onclick="myFun()">Log in</button>
+                 </a>
+                 <a href="http://localhost/KEVIN/fileuploading.php">
+             <button class="kevo" onclick="myFun()">Sign in</button>
+                 </a>
+        </div><br />
+        <!--login/signin section end-->
+
+        <!--My search section start-->
+        <div class="image1">
+            <h1 class="kip"><span>Find Your<br /> Suitable and Affordable<br /> Rental House</span></h1>
+            <input class="green" id="cars" type="text" placeholder="Choose town" list="towns">
+            <datalist id="towns">
+                <option value="Nairobi"></option>
+                <option value="Nakuru"></option>
+                <option value="Eldoret"></option>
+            </datalist> <br />
+
+            <input class="green" id="cars" type="text" placeholder="Room type" list="roomtype">
+            <datalist id="roomtype">
+                <option value="Bedsitter"></option>
+                <option value="1Bedroom"></option>
+                <option value="2Bedroom"></option>
+                <option value="3Bedroom"></option>
+            </datalist>
+            <input class="green" id="cars" type="text" placeholder="Location" list="location">
+            <datalist id="location">
+                <option value="Kahawa"></option>
+                <option value="Bypass"></option>
+                <option value="Ruiru"></option>
+                <option value="Madaraka"></option>
+            </datalist><br />
+            <button class="kevo" onclick="myFun()">Search</button><br />
+        </div>
+        <!--My search section end-->
+        
+        <!--Featured houses section start-->
+        <div class="fech" >
+            <h1>Featured houses</h1>
+            <button onclick="prev()">prev</button>
+            <img id="slider" src="file:///C:/Users/User/Pictures/image/BPX_0884.JPG" width="600px" rotate="left" height="300px" class="img-rounded"/>
+            <button onclick="next()">next</button>
+            <br />
+        </div>
+        <!--Featured section end-->
+
+        <!--Registration section start-->
+        <div class="reg">
+            <h1><span>Registration</span></h1>
+            <form method="POST" class="click">                                                                            
+                <label>NAME</label><label style="color:red;">*</label> <br />
+                <input class="green" name="user" name="username" type="text" required /> <br />
+                <label>Email</label><label style="color:red;">*</label> <br />
+                <input class="green" name="Email" name="email" type="email" required /> <br />
+                <label>Password</label><label style="color:red;">*</label> <br />
+                <input class="green" type="password" name="num1" id="num1" required /> <br />
+                <label>Repeat password</label><label style="color:red">*</label><br />
+                <input class="green" type="password" name="num2" id="num2" required /> 
+                <br /><br />
+                <button onclick="validate()">Submit</button>
+            </form>
+        </div>
+        <!--Registration section end--> 
+
+        <!--About us section start-->
+            <div class="reg">
+            <h1><span>About Us</span></h1>
+            <p>RenthouseKenya offers you a chance to search for your affordable and suitable<br /> 
+            house for rent at the comfort of your <strong>office, car, and lunch breaks</strong>.</p>
+            <P><i><strong>"Saving you the hustle"</strong></i></p>
+            </div>
+         <!--About us end-->
+
+        <!--Contact us section start-->
+        <div class="contact">
+            <h1><span>Contact us</span></h1>
+            <form method="POST" action="#" autocomplete="OFF">
+                <input class="contact" name="name" placeholder="name" type="text" required /> <br />
+                <input class="contact" name="email" placeholder="email" type="email" required /> <br />
+                <textarea class="contact" name="message" placeholder="message" type="text" required></textarea><br />
+                <input style="color: white;background-color:royalblue" type="submit" value="Send" class="submit"/>
+            </form>
+        </div>
+        <!--Contact us section end-->
+
+        <!--Find us section start-->
+        <div class="find">
+            <h1><span>Find us</span></h1>
+            <div>
+                <a href="https://twitter.com/renthousekenya">
+                    <img alt="Twitter" src="file:///C:/Users/User/Pictures/Camera/20170423_133053.jpg" width="100px" height="100px"/>
+                </a><br />
+                <a href="https://facebook.com/renthousekenya">
+                    <img alt="Facebook" src="file:///C:/Users/User/Pictures/Camera/Screenshot_2017-03-02-19-26-25.png" width="50px" height="50px"/>
+                </a><br />
+                <a href="https://facebook.com/renthousekenya" target="_blank"><br />
+                    <img alt="IG" src="file:///C:/Users/User/Pictures/Camera/Screenshot_2017-03-02-19-26-25.png" width="50px" height="50px"/>
+                </a><br />
+            </div>
+        </div>
+        <!--Find us section end-->
+        
+        <div class="copyright">
+            &copy; 2019 RenthouseKenya All rights reserved.
+        </div>
+    </body>
+</html>
+
+
+

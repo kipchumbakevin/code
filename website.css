@@ -1,0 +1,77 @@
+body{
+    background-color: green;
+    padding: 10px;
+    margin: 0;
+}
+div.image1{
+    border: solid;
+    background-image: url(file:///C:/Users/User/Downloads/IMG-20180913-WA0008-1.jpg);background-attachment: scroll; 
+    background-repeat: repeat-x;
+    text-align: center;
+    padding: 10px;
+}
+h1.kip{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    color: gold;
+}
+input.green{
+    text-align: left;
+    background-color: peru;
+    -webkit-box-sizing: block;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+}
+button.kevo{
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-attachment: fixed;
+}
+div.reg{
+    text-align: center;
+}
+div.contact{
+    text-align: left;
+    font-size: 30px;
+
+}
+div.find{
+    font-size: 30px;
+    background-color: black;
+    color: orange;
+}
+div.log{
+    text-align: center;
+}
+input.contact{
+    font-size: 20px;
+    background-color: darkgray;
+}
+textarea{
+    font-size: 20px;
+    background-color: darkgray;
+}
+alt{
+    color: orange;
+}
+label{
+    font-size: 20px;
+}
+button.drop{
+    text-align: left;
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+}
+div.fech{
+    background-color: black;
+    padding: 10px;
+    color: orange;
+}

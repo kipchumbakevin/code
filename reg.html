@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="website.css">
+ <div class="reg">
+            <h1><span>Registration</span></h1>
+            <form onsubmit="return validate()" method="POST" class="click">                                                                            
+                <label>NAME</label><label style="color:red;">*</label> <br />
+                <input class="green" name="user" name="username" type="text" required /> <br />
+                <label>Email</label><label style="color:red;">*</label> <br />
+                <input class="green" name="Email" name="email" type="email" required /> <br />
+                <label>Password</label><label style="color:red;">*</label> <br />
+                <input class="green" type="password" name="num1" id="num1" required /> <br />
+                <label>Repeat password</label><label style="color:red">*</label><br />
+                <input class="green" type="password" name="num2" id="num2" required /> 
+                <br /><br />
+                <button onclick="validate()">Submit</button>
+            </form>
+        </div>
